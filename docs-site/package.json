@@ -2,6 +2,7 @@
   "name": "claude-code-analysis-docs",
   "version": "1.0.0",
   "description": "Claude Code 源码分析阅读站",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
