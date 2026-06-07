@@ -4,12 +4,10 @@
   "description": "Claude Code 源码分析阅读站",
   "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:build": "node build.js",
+    "docs:preview": "npx serve dist"
   },
   "devDependencies": {
-    "vitepress": "^1.5.0",
-    "vue": "^3.4.0"
+    "marked": "^12.0.0"
   }
 }
