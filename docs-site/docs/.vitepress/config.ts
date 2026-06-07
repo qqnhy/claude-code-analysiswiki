@@ -4,7 +4,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'Claude Code 源码分析',
   description: '基于泄露源码的 Claude Code 深度技术分析，涵盖架构、安全、Memory、Agent、MCP 等核心机制',
-  base: '/claude-code-analysis/',
+  base: '/claude-code-analysiswiki/',
 
   head: [
     ['meta', { name: 'theme-color', content: '#1a1a2e' }],
